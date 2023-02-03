@@ -12,7 +12,7 @@ source $ZSH/oh-my-zsh.sh
 # Set colors for LS_COLORS.
 eval `dircolors ~/.dircolors`
 
-# some aliases
+# some awesome aliases
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
