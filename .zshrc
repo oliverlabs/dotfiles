@@ -17,3 +17,14 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias k='kubectl'
+alias tf='terraform'
+alias update="sudo apt update && sudo apt upgrade -y"
+alias gcb='git checkout -b'
+alias myip='curl ifconfig.me'
+
+# some useful functions
+function acp() {
+  git add .
+  git commit -m "$1"
+  git push
+}
