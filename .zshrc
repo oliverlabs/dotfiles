@@ -5,7 +5,7 @@ ZSH_THEME="spaceship"
 export SPACESHIP_DIR_TRUNC=0
 
 # Plugins.
-plugins=(git z zsh-syntax-highlighting)
+plugins=(git z zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
