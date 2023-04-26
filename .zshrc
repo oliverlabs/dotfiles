@@ -22,6 +22,7 @@ alias update="sudo apt update && sudo apt upgrade -y"
 alias gcb='git checkout -b'
 alias myip='curl ifconfig.me'
 alias weather="curl 'wttr.in/London?0p'"
+alias up="cd .."
 
 # some useful functions
 function acp() {
