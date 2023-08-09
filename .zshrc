@@ -1,3 +1,7 @@
+#
+# ~/.zshrc
+#
+
 export ZSH="${HOME}/.oh-my-zsh"
 
 # Theme.
@@ -26,6 +30,10 @@ alias gcb='git checkout -b'
 alias myip='curl ifconfig.me'
 alias weather="curl 'wttr.in/London?0p'"
 alias up="cd .."
+alias ..="cd .."
+
+# keybinds
+bind -x '"\C-l":clear'
 
 # some useful functions
 function acp() {
