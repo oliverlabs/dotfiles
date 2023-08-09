@@ -21,6 +21,7 @@ eval "$(github-copilot-cli alias -- "$0")"
 
 # some awesome aliases
 alias ll='ls -alF'
+alias ls='ls --color=auto'
 alias la='ls -A'
 alias l='ls -CF'
 alias k='kubectl'
@@ -31,6 +32,7 @@ alias myip='curl ifconfig.me'
 alias weather="curl 'wttr.in/London?0p'"
 alias up="cd .."
 alias ..="cd .."
+alias c="clear"
 
 # keybinds
 bind -x '"\C-l":clear'
