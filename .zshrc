@@ -34,9 +34,6 @@ alias up="cd .."
 alias ..="cd .."
 alias c="clear"
 
-# keybinds
-bind -x '"\C-l":clear'
-
 # some useful functions
 function acp() {
   git add .
